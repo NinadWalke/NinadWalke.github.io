@@ -2,4 +2,169 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(23, 60, 27), rgb(42, 34, 77));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Fonts */
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+/* Header Section */
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+    padding-left: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo h1 {
+    font-size: 55px;
+}
+
+.logo h2 {
+    margin-left: 15px;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.options {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.aboutMe:hover {
+    color: orange;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.workDiv:hover {
+    color: orange;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.blogDiv:hover {
+    color: orange;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.contactDiv:hover {
+    color: orange;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* Main Page */
+
+.infoContainer {
+    width: 100%;
+    height: 1000px;
+    background-color: none;
+    display: flex;
+}
+
+.parasInfo {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.parasInfo h2 {
+    font-family: 'Montserrat';
+    color: rgb(100, 185, 166);
+}
+
+.parasInfo h1 {
+    font-family: 'Montserrat';
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.parasInfo h4 {
+    font-family: 'Montserrat';
+    color:grey;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#workwithme {
+    width: 200px;
+    height: 60px;
+    margin-left: 0px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    color:black;
+    cursor:pointer;
+    background-color: rgb(100, 185, 166);
+    transition-duration: 0.4s;
+}
+
+#workwithme:hover {
+    background-color:orange;
+}
+
+.imageContainer {
+    width: 70%;
+    height: 800px;
+    background-color: none;
+    background-size: cover;
+    margin-right: 70px;
+    scale: 0.6;
+}
+
+
+.whiteCube{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: -60px;
+    margin-top: -860px;
+}
+
+.gradCube {
+    background-color: rgb(100, 185, 166);
+    width: 800px;
+    height: 700px;
+    margin-left: 70px;
+    margin-top: -70px;
 }
