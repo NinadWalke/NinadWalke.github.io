@@ -16,6 +16,37 @@ body {
     background-attachment: fixed;
 }
 
+@keyframes slide_in_left {
+    from {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    to {   
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fade_in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide_in_right {
+    from {
+        opacity: 0;
+        transform: translateX(400px);
+    }
+    to {   
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
 /* Fonts */
 
 .montserrat {
@@ -62,6 +93,7 @@ body {
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
+    animation: slide_in_right 1.5s;
 }
 
 .aboutMe:hover {
@@ -97,6 +129,7 @@ body {
     display: flex;
 }
 
+
 .parasInfo {
     margin-top: 100px;
     width: 100%;
@@ -105,6 +138,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-left: 150px;
+    animation: slide_in_left 1.5s;
 }
 
 .parasInfo h2 {
@@ -150,6 +184,7 @@ body {
     background-size: cover;
     margin-right: 70px;
     scale: 0.6;
+    animation: fade_in 1.5s;
 }
 
 
