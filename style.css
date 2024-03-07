@@ -96,27 +96,18 @@ body {
     animation: slide_in_right 1.5s;
 }
 
-.aboutMe:hover {
-    color: orange;
-    transition-duration: 0.4s;
-    cursor: pointer;
+.optnbox {
+    width: 150px;
+    height: 100px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.workDiv:hover {
+.optnbox:hover {
     color: orange;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.blogDiv:hover {
-    color: orange;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.contactDiv:hover {
-    color: orange;
-    transition-duration: 0.4s;
+    transition-duration: 0.8s;
     cursor: pointer;
 }
 
@@ -171,10 +162,12 @@ body {
     cursor:pointer;
     background-color: rgb(100, 185, 166);
     transition-duration: 0.4s;
+    border: none;
 }
 
 #workwithme:hover {
     background-color:orange;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
 
 .imageContainer {
