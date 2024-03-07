@@ -1,15 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    color: white;
-}
+        scroll-behavior: smooth;
+        color: white;
+}   
 
-html {
-    height: 100%;
-}
-
-body {
+.allContainer {
     height: 100%;
     background-image: linear-gradient(to bottom right, rgb(23, 60, 27), rgb(42, 34, 77));
     background-repeat: no-repeat;
@@ -115,11 +111,10 @@ body {
 
 .infoContainer {
     width: 100%;
-    height: 1000px;
+    height: 850px;
     background-color: none;
     display: flex;
 }
-
 
 .parasInfo {
     margin-top: 100px;
@@ -196,3 +191,81 @@ body {
     margin-left: 70px;
     margin-top: -70px;
 }
+
+/* About me section */
+
+.aboutMeContainer {
+    background-color: none;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutMeContainer h1 {
+    color: white;
+    font-size: 58px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.consolelogclass {
+    color: rgb(116, 112, 112)
+}
+
+.cardsHolder {
+    width: 100%;
+    height: 1000px;
+    background-color: none;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.myCard {
+    width: 45%;
+    height: 700px;
+    margin-top: 50px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.aboutMeDivs {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
+
+.aboutMeDivs h3 {
+    color: grey;
+    transition-duration: 0.2s;
+    padding-left: 0px;
+}
+
+.dataSwitcher {
+    position: absolute;
+    transition-duration: 0.3s;
+}
+
+#skillsData {
+    opacity: 0;
+}
+
+#projectsData{
+    opacity: 0;
+}
+
+#resumeData{
+    opacity: 0;
+}
+
+
+
