@@ -267,5 +267,26 @@
     opacity: 0;
 }
 
+/* Experience tab */
 
+#experienceData h3 {
+    font-size: 35px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: rgb(100, 185, 166);
+}
+
+#skillsData h3 {
+    font-size: 35px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: rgb(100, 185, 166);
+}
+#skillsData i {
+    font-size: 40px;
+}
+#skillsData p {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
 
