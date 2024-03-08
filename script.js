@@ -97,7 +97,7 @@ function setResumeHeader() {
     projects.style.borderBottom = "none";
     projectsData.style.opacity = "0";
 
-    resume.style.fontSize = "35 px";
+    resume.style.fontSize = "35px";
     resumeHeader.style.color = "#64b9ba";
     resume.style.borderBottom = "4px solid #64b9ba"
     resumeData.style.opacity = "100";
