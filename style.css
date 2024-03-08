@@ -5,6 +5,10 @@
         color: white;
 }   
 
+a {
+    text-decoration: none;
+}
+
 .allContainer {
     height: 100%;
     background-image: linear-gradient(to bottom right, rgb(23, 60, 27), rgb(42, 34, 77));
