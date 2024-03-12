@@ -160,7 +160,7 @@ a {
 .parasInfo {
     margin-top: 100px;
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,6 +205,38 @@ a {
     background-color:orange;
     box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
 }
+
+.socialContainer {
+    width: 300px;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.socialContainer .socialHolder {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.socialContainer .socialHolder:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255, 1);
+}
+
+
+/* Image customization here */
 
 .imageContainer {
     width: 70%;
