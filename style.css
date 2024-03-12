@@ -47,6 +47,43 @@ a {
     }
 }
 
+/* Logos animations */
+@keyframes translateRight {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(800px);
+    }
+}
+
+@keyframes translateBottom {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(800px);
+    }
+}
+
+@keyframes translateLeft { 
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-800px);
+    }
+}
+
+@keyframes translateTop {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-800px);
+    }
+}
+
 /* Fonts */
 
 .montserrat {
@@ -196,6 +233,46 @@ a {
     margin-top: -70px;
 }
 
+.imageContainer .cppimg {
+    position: absolute;
+    top: -90px;
+    left: -50px;
+    animation: translateRight 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.imageContainer .javaimg {
+    position: absolute;
+    top: -100px;
+    right: -20px;
+    animation: translateBottom 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.imageContainer .pyimg {
+    position: absolute;
+    bottom: -70px;
+    right: -10px;
+    animation: translateLeft 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.imageContainer .dbimg {
+    position: absolute;
+    left: -50px;
+    bottom: -70px;
+    animation: translateTop 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
 /* About me section */
 
 .aboutMeContainer {
@@ -278,6 +355,7 @@ a {
     padding-bottom: 30px;
     padding-top: 30px;
     color: rgb(100, 185, 166);
+    animation: slide_in_right 1s;
 }
 
 #skillsData h3 {
@@ -285,6 +363,7 @@ a {
     padding-bottom: 30px;
     padding-top: 30px;
     color: rgb(100, 185, 166);
+    animation: slide_in_right 1s;
 }
 #skillsData i {
     font-size: 40px;
@@ -299,5 +378,6 @@ a {
     padding-bottom: 30px;
     padding-top: 30px;
     color: rgb(100, 185, 166);
+    animation: slide_in_right 1s;
 }
 
