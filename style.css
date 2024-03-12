@@ -214,6 +214,7 @@ a {
     margin-right: 70px;
     scale: 0.6;
     animation: fade_in 1.5s;
+    transition-duration: 1s;
 }
 
 
@@ -233,6 +234,8 @@ a {
     margin-top: -70px;
 }
 
+/* Language logo display animations */
+
 .imageContainer .cppimg {
     position: absolute;
     top: -90px;
@@ -251,6 +254,7 @@ a {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+    padding-bottom: 5px;
 }
 
 .imageContainer .pyimg {
@@ -271,6 +275,20 @@ a {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+}
+
+.logos {
+    background-color: rgba(255, 255, 255, 1);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer:hover {
+    transform: scale(1.05);
 }
 
 /* About me section */
