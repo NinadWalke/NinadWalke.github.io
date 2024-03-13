@@ -1,3 +1,5 @@
+// --------------- Data divs front-end ---------------
+
 let experience = document.getElementById("Experience");
 let skills = document.getElementById("Skills");
 let projects = document.getElementById("Projects");
@@ -121,3 +123,12 @@ projects.addEventListener("click", () => {
 resume.addEventListener("click", () => {
     setResumeHeader();
 })
+
+
+// --------------- Logos Front-end ---------------
+
+let cpplogo = document.getElementById("cpplogoo");
+let javalogo =  document.getElementById("javalogoo");
+let pylogo = document.getElementById("pylogoo");
+let dblogo = document.getElementById("dblogoo");
+
