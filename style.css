@@ -13,7 +13,7 @@ a {
     height: 100%;
     background-image: linear-gradient(to bottom right, rgb(23, 60, 27), rgb(42, 34, 77));
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;   
 }
 
 /* Animations */
@@ -349,7 +349,7 @@ a {
 .aboutMeContainer {
     background-color: none;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -369,7 +369,7 @@ a {
 
 .cardsHolder {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-color: none;
     display: flex;
     margin-top: 40px;
