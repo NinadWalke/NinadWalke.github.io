@@ -260,11 +260,11 @@ a {
 /* Image customization here */
 
 .imageContainer {
-    width: 70%;
-    height: 800px;
+    width: 522px;
+    height: 480px;
     background-color: none;
     background-size: cover;
-    margin-right: 70px;
+    margin-right: 15rem;
     scale: 0.6;
     animation: fade_in 1.5s;
     transition-duration: 1s;
@@ -302,7 +302,7 @@ a {
 .imageContainer .javaimg {
     position: absolute;
     top: -100px;
-    right: -20px;
+    right: -375px;
     animation: translateBottom 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -312,8 +312,8 @@ a {
 
 .imageContainer .pyimg {
     position: absolute;
-    bottom: -70px;
-    right: -10px;
+    bottom: -400px;
+    right: -375px;
     animation: translateLeft 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -323,7 +323,7 @@ a {
 .imageContainer .dbimg {
     position: absolute;
     left: -50px;
-    bottom: -70px;
+    bottom: -400px;
     animation: translateTop 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -360,6 +360,7 @@ a {
     opacity: 0.5;
     cursor: pointer;
     transition-duration: 0.4s;
+    margin-right: 9rem;
 }
 
 .director-div-option h3 {
