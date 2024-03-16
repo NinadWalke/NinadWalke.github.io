@@ -103,6 +103,10 @@ a {
     display: flex;
     align-items: center;
     animation: slide_in_right 1.5s;
+    /* position: sticky;
+    top: 0px;
+    z-index: 10; */
+    transition-duration: 0.6s;
 }
 
 .logo{
