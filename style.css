@@ -264,7 +264,8 @@ a {
     height: 480px;
     background-color: none;
     background-size: cover;
-    margin-right: 15rem;
+    margin-right: 20rem;
+    margin-top: 4rem;
     scale: 0.6;
     animation: fade_in 1.5s;
     transition-duration: 1s;
