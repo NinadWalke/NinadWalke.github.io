@@ -99,7 +99,7 @@ a {
 .navbar {
     width: 100%;
     height: 100px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     animation: slide_in_right 1.5s;
@@ -121,7 +121,7 @@ a {
     height: 100px;
     margin-left: 0px;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     justify-content: center;
     transition-duration: 0.3s;
     align-items: center;
@@ -129,7 +129,7 @@ a {
 }
 
 .logoBorder:hover {
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 5px 25px rgba(255, 255, 255, 0.4);
 }
 
 .logo h1 {
@@ -166,7 +166,7 @@ a {
     color: orange;
     transition-duration: 1s;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Main Page */
@@ -179,13 +179,13 @@ a {
 }
 
 .parasInfo {
-    margin-top: 60px;
+    margin-top: 4rem;
     width: 100%;
     height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 150px;
+    margin-left: 9.5rem;
     animation: slide_in_left 1.5s;
 }
 
@@ -343,11 +343,15 @@ a {
 
 .director-div {
     width: 100%;
+    height: 1rem;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     animation: slide_in_right 1s;
     flex-direction: column;
+    background-color: none;
+    bottom: 0px;
+    margin-bottom: 2rem;
 }
 
 .director-div-option {
@@ -361,7 +365,7 @@ a {
     opacity: 0.5;
     cursor: pointer;
     transition-duration: 0.4s;
-    margin-right: 9rem;
+    margin-bottom: 25rem;
 }
 
 .director-div-option h3 {
